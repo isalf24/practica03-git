@@ -1,0 +1,162 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 30px;
+}
+
+.card {
+    display: flex;
+    flex-direction: row;
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 100%;
+    max-width: 900px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.card img {
+    width: 300px;
+    height: auto;
+    border-radius: 8px;
+    margin-right: 20px;
+}
+
+.card-details {
+    flex: 1;
+}
+
+.card-details h2 {
+    font-size: 2.2em;
+    color: #444;
+    margin-bottom: 15px;
+}
+
+.card-details p {
+    font-size: 1.1em;
+    color: #666;
+    margin: 10px 0;
+}
+
+.card-details h3 {
+    font-size: 1.5em;
+    color: #444;
+    margin-top: 20px;
+}
+
+.transformations {
+    margin-top: 40px;
+}
+
+.transformation-card {
+    background-color: #fafafa;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 15px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.transformation-card img {
+    width: 100px;
+    height: auto;
+    border-radius: 8px;
+    margin-right: 20px;
+}
+
+.transformation-card h3 {
+    font-size: 1.4em;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.transformation-card p {
+    font-size: 1.1em;
+    color: #555;
+}
+
+.btn {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 15px;
+    background-color: #ff6f61;
+    color: white;
+    text-decoration: none;
+    border-radius: 4px;
+    font-size: 1.1em;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #ff3f31;
+}
+
+/* Estilos para las tarjetas pequeñas en index.php */
+.small-card-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.small-card {
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 15px;
+    width: 200px;
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+
+.small-card img {
+    width: 150px;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+
+.small-card h3 {
+    font-size: 1.4em;
+    color: #444;
+    margin-bottom: 10px;
+}
+
+.small-card p {
+    font-size: 1em;
+    color: #666;
+    margin-bottom: 15px;
+}
+
+.small-card a {
+    display: inline-block;
+    padding: 8px 12px;
+    background-color: #ff6f61;
+    color: white;
+    text-decoration: none;
+    border-radius: 4px;
+    font-size: 1em;
+    transition: background-color 0.3s ease;
+}
+
+.small-card a:hover {
+    background-color: #ff3f31;
+}
+
+.small-card:hover {
+    transform: translateY(-5px);
+}
